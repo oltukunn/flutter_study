@@ -15,6 +15,22 @@ class _NextPageState extends State<NextPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text(widget.title)),
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Column(children: <Widget>[
+          Row(children: <Widget>[
+            Container(
+              width: 20,
+              child: Text('ID'),
+            ),
+            Container(
+              width: 10,
+              child: Text(':'),
+            ),
+            Text('同じパスワードを表示'),
+          ])
+        ]),
+      ),
     );
   }
 }
