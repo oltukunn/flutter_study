@@ -1,6 +1,7 @@
 # flutter_study
 
 A new Flutter project.
+Only private study
 
 ## Getting Started
 
